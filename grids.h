@@ -1,11 +1,11 @@
 #ifndef GRIDS_H
 #define GRIDS_H
 
-#include "game_grid.h"
+#include "protocol.h"
 
-struct grilles {
-    int grille_client1[GRID_SIZE][GRID_SIZE];
-    int grille_client2[GRID_SIZE][GRID_SIZE];
+struct grids {
+    int grid_client1[GRID_SIZE][GRID_SIZE];
+    int grid_client2[GRID_SIZE][GRID_SIZE];
 };
 
 
